@@ -1,0 +1,53 @@
+# config/email_template.yaml
+email_templates:
+  # Available product types for email scenarios
+  product_types:
+    - electronics
+    - clothing
+    - furniture
+    - food
+    - cosmetics
+    - books
+    - toys
+    - sports equipment
+    - jewelry
+    - home appliances
+  
+  # Types of customer issues in emails
+  issue_types:
+    - delivery_delay
+    - order_status
+    - wrong_item
+    - damaged_product
+    - billing_issue
+    - return_request
+    - product_question
+    - missing_item
+    - website_issue
+    - account_problem
+  
+  # Templates for different complexity levels
+  complexity_templates:
+    simple:
+      description: "Brief, direct inquiry with basic language"
+      word_count_range: [30, 70]
+    
+    medium:
+      description: "Some details and context with average vocabulary"
+      word_count_range: [70, 150]
+    
+    complex:
+      description: "Multiple questions or concerns with more sophisticated language"
+      word_count_range: [150, 250]
+    
+    very_complex:
+      description: "Detailed situation description with advanced vocabulary, multiple references to order details, and complex requests"
+      word_count_range: [250, 400]
+
+  # Fields for email responses in the final output
+  response_fields:
+    email_subject: str
+    email_body: str
+    email_sender: str
+    thread_id: str      
+  

@@ -1,0 +1,29 @@
+# config/system_config.yaml
+# System-wide configuration
+
+# LLM configuration
+llm:
+  provider: "google"  # Options: openai, anthropic, local
+  model: "gemini-2.0-flash"  # Model name
+  temperature: 0.0  # Temperature for LLM models range: 0.0-1.0
+  max_tokens: 1000000
+
+# Diversity checker configuration
+diversity:
+  min_similarity_threshold: 0.15  # Minimum similarity threshold to consider items diverse
+  fields_to_check:
+    - "description"
+    - "features"
+    - "body"
+
+# Import template configurations
+templates:
+  include:
+    - "email_template.yaml" 
+    - "product_template.yaml"
+
+# Output configuration
+output:
+  default_format: "json"
+  file_path: "data/output/"
+  include_metadata: true

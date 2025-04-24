@@ -1,0 +1,25 @@
+[
+  {
+    "thread_id": "1962bf9668c55c46",
+    "email_sender": "John@millers.com",
+    "email_subject": "Tampa | San Jose | 12/15/2024 | 9434611105502938251137",
+    "email_body": "Hi Miller,\nCould you share the ETA on this one when you get a chance?\nThank you,\nJohn"
+  },
+  {
+    "thread_id": "1962bf9668c55c46",
+    "email_sender": "alex@jit.com",
+    "email_subject": "ETA for Order # 8765432190",
+    "email_body": "Hi Miller,\nI'm writing to inquire about the estimated time of arrival (ETA) for order # 8765432190.\nCould you please let me know when I can expect the delivery?\nThanks,\nAlex"
+  },
+  {
+    "thread_id": "1962bf9668c55c46",
+    "email_sender":"Jesse@millers.com",
+    "email_subject": "Tampa | San Jose", 
+    "email_body": "Hi Miller,\nCould you share the eta on this one when you get a chance?\nThanks, Jesse"
+  },
+  {"thread_id": "1962bf9668c55c46",
+ "email_sender":"offers@random.com",
+ "email_subject": "Congratulations! You’ve Won!", 
+ "email_body": "Hi,\nCongratulations! You’ve won a free gift. Click here to claim your reward. \nBest regards,\n SpamBot"
+}
+]

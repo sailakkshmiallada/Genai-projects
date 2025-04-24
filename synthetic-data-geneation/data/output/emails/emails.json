@@ -1,0 +1,182 @@
+[
+  {
+    "thread_id": "a1b2c3d4e5f6",
+    "email_subject": "Shipment Inquiry - Order #123456789012",
+    "email_body": "Hello,\nI am writing to inquire about the status of my order #123456789012. Could you please provide an update on its current location and estimated delivery date?\nThank you,\nJane Doe",
+    "email_sender": "jane.doe@example.com"
+  },
+  {
+    "thread_id": "g7h8i9j0k1l2",
+    "email_subject": "Shipping Update Request - Order #9876543210",
+    "email_body": "Dear Support Team,\nI'd like to know the current status of my order #9876543210. I ordered a new set of furniture last week and am eager to receive it. Any information you can provide would be greatly appreciated.\nSincerely,\nPeter Smith",
+    "email_sender": "peter.smith@example.com"
+  },
+  {
+    "thread_id": "m3n4o5p6q7r8",
+    "email_subject": "Order Status Inquiry - Order #1Z123ABC456DEF789",
+    "email_body": "Hi,\nI'm checking on the status of my order #1Z123ABC456DEF789. It's been a few days, and I haven't received any updates. Can you please check on this for me?\nThanks,\nAlice Johnson",
+    "email_sender": "alice.johnson@example.com"
+  },
+  {
+    "thread_id": "s9t0u1v2w3x4",
+    "email_subject": "Where is my order? - Order #9123456789012345678901",
+    "email_body": "Hello,\nI am writing to inquire about the whereabouts of my order #9123456789012345678901. I was expecting it to arrive by now. Please provide an update.\nRegards,\nBob Williams",
+    "email_sender": "bob.williams@example.com"
+  },
+  {
+    "thread_id": "y5z6a7b8c9d0",
+    "email_subject": "Shipping Inquiry - Order #12345-67890-12345",
+    "email_body": "Good morning,\nI am contacting you regarding the shipping status of order #12345-67890-12345. I am looking forward to receiving the electronics I ordered. Please let me know when I can expect delivery.\nBest regards,\nCarol Davis",
+    "email_sender": "carol.davis@example.com"
+  },
+  {
+    "thread_id": "e1f2g3h4i5j6",
+    "email_subject": "Inquiry about recent purchase",
+    "email_body": "Hi,\nI placed an order last week for some clothing items, but I haven't received any shipping updates. My name is Emily Brown. Can you help me track my order?\nThanks,\nEmily Brown",
+    "email_sender": "emily.brown@example.com"
+  },
+  {
+    "thread_id": "k7l8m9n0o1p2",
+    "email_subject": "Order Status - Sarah Miller",
+    "email_body": "Hello,\nI'm trying to find out the status of an order I placed a few days ago. I believe it was for some cosmetics. My name is Sarah Miller. Could you please look into this for me?\nThank you,\nSarah Miller",
+    "email_sender": "sarah.miller@example.com"
+  },
+  {
+    "thread_id": "q3r4s5t6u7v8",
+    "email_subject": "Question about my order",
+    "email_body": "Hi,\nI ordered a few books last week and haven't received any shipping information. I used my email address to place the order. Can you help me find out when they will ship?\nThanks,\nDavid Lee",
+    "email_sender": "david.lee@example.com"
+  },
+  {
+    "thread_id": "w9x0y1z2a3b4",
+    "email_subject": "Promotion Inquiry",
+    "email_body": "Dear Support Team,\nI am writing to inquire about a promotion I saw on your website. It was for a discount on home appliances. Is this promotion still valid? If so, how can I redeem it?\nThank you,\nFrank Green",
+    "email_sender": "frank.green@example.com"
+  },
+  {
+    "thread_id": "c5d6e7f8g9h0",
+    "email_subject": "Return Request",
+    "email_body": "Hello,\nI would like to request a return for an item I recently purchased. It was a toy that arrived damaged. What is the process for returning the item and receiving a refund?\nSincerely,\nGrace White",
+    "email_sender": "grace.white@example.com"
+  },
+  {
+    "thread_id": "i1j2k3l4m5n6",
+    "email_subject": "Complaint about product quality",
+    "email_body": "Dear Customer Service,\nI am writing to express my dissatisfaction with the quality of a sports equipment item I recently purchased. It broke after only a few uses. I would like to request a replacement or a refund.\nRegards,\nHarry Black",
+    "email_sender": "harry.black@example.com"
+  },
+  {
+    "thread_id": "o7p8q9r0s1t2",
+    "email_subject": "General Feedback",
+    "email_body": "Hi,\nI just wanted to provide some feedback on my recent shopping experience. I found the website easy to navigate, and the checkout process was smooth. Overall, I am very satisfied with your service.\nBest,\nIvy Grey",
+    "email_sender": "ivy.grey@example.com"
+  },
+  {
+    "thread_id": "u3v4w5x6y7z8",
+    "email_subject": "Order Inquiry - #FEDEX123456789012",
+    "email_body": "Dear Support,\nI am writing to inquire about the status of my order #FEDEX123456789012. I am looking forward to receiving the jewelry I ordered. Please let me know when I can expect delivery.\nThank you,\nKelly Blue",
+    "email_sender": "kelly.blue@example.com"
+  },
+  {
+    "thread_id": "b1c2d3e4f5a6",
+    "email_subject": "Order Inquiry - #UPS1Z9876A1B2C3D4E5F6G7",
+    "email_body": "Hello,\nI am writing to inquire about the status of my order #UPS1Z9876A1B2C3D4E5F6G7. I am looking forward to receiving the food items I ordered. Please let me know when I can expect delivery.\nThank you,\nLiam Gold",
+    "email_sender": "liam.gold@example.com"
+  },
+  {
+    "thread_id": "z9y8x7w6v5u4",
+    "email_subject": "Account Problem",
+    "email_body": "Dear Support Team,\nI am writing to report an issue with my account. I am unable to log in, and I have tried resetting my password multiple times. Can you please assist me with this issue?\nThank you,\nMia Silver",
+    "email_sender": "mia.silver@example.com"
+  },
+  {
+    "email_subject": "Shipment Inquiry - Order #123456789012",
+    "email_body": "Hello,\nI'm writing to check on the status of my order, #123456789012. I placed it last week and haven't received any shipping updates. Could you please provide an ETA?\nThank you,\nSarah Miller",
+    "thread_id": "a1b2c3d4e5f6",
+    "email_sender": "sarah.miller@example.com"
+  },
+  {
+    "email_subject": "Order Status - #9876543210987654321",
+    "email_body": "Hi,\nI'd like to know the current status of my order #9876543210987654321. It's been a while since I placed it, and I'm wondering when it will ship.\nThanks,\nDavid Lee",
+    "thread_id": "g7h8i9j0k1l2",
+    "email_sender": "david.lee@example.com"
+  },
+  {
+    "email_subject": "Shipping Update Request - Order #55555-66666-77777",
+    "email_body": "Dear Support Team,\nI am inquiring about the shipping status of order #55555-66666-77777. I am eager to receive the furniture I ordered. Please provide an update.\nSincerely,\nEmily Chen",
+    "thread_id": "m3n4o5p6q7r8",
+    "email_sender": "emily.chen@example.com"
+  },
+  {
+    "email_subject": "Where is my package? - Order #91234567890123456789012",
+    "email_body": "Hello,\nI'm trying to track my package with order number 91234567890123456789012. The tracking information hasn't been updated in several days. Can you help?\nThanks,\nMichael Brown",
+    "thread_id": "s9t0u1v2w3x4",
+    "email_sender": "michael.brown@example.com"
+  },
+  {
+    "email_subject": "Shipping Inquiry - Order 1Z1234A5B6C7D8E9F0",
+    "email_body": "Good morning,\nI am writing to inquire about the whereabouts of my order, tracking number 1Z1234A5B6C7D8E9F0. I was expecting it to arrive earlier this week. Could you please investigate?\nBest regards,\nJessica Davis",
+    "thread_id": "y5z6a7b8c9d0",
+    "email_sender": "jessica.davis@example.com"
+  },
+  {
+    "email_subject": "Order Status Request - Order #1234567890123",
+    "email_body": "Hi,\nI'm checking on the status of my order #1234567890123. I ordered some cosmetics and haven't received any updates. Please let me know when it will ship.\nThanks,\nAshley Wilson",
+    "thread_id": "e1f2g3h4i5j6",
+    "email_sender": "ashley.wilson@example.com"
+  },
+  {
+    "email_subject": "Inquiry about my recent order",
+    "email_body": "Hello,\nI placed an order for a book about a week ago, and I haven't received any shipping information. My name is Kevin Johnson. Can you please check on the status of my order?\nThanks,\nKevin Johnson",
+    "thread_id": "k7l8m9n0o1p2",
+    "email_sender": "kevin.johnson@example.com"
+  },
+  {
+    "email_subject": "Question about my order from last Tuesday",
+    "email_body": "Hi,\nI ordered some clothing last Tuesday and haven't received any shipping updates. I believe the order was placed under my wife's name, Susan Williams. Could you please look into this for me?\nThanks,\nRobert Williams",
+    "thread_id": "q3r4s5t6u7v8",
+    "email_sender": "robert.williams@example.com"
+  },
+  {
+    "email_subject": "Inquiry about a recent purchase",
+    "email_body": "Dear Support,\nI recently purchased a home appliance from your website, but I have not received any shipping information. My email is jane.doe@example.com. Can you please provide an update?\nSincerely,\nJane Doe",
+    "thread_id": "w9x0y1z2a3b4",
+    "email_sender": "jane.doe@example.com"
+  },
+  {
+    "email_subject": "Promotion Inquiry",
+    "email_body": "Hello,\nI saw a promotion on your website for 20% off electronics. Is this promotion still valid? I tried to apply it to my cart, but it didn't work.\nThanks,\nChris Anderson",
+    "thread_id": "c5d6e7f8g9h0",
+    "email_sender": "chris.anderson@example.com"
+  },
+  {
+    "email_subject": "Return Request",
+    "email_body": "Dear Support Team,\nI would like to return a damaged product I received. The box was crushed, and the item inside is broken. What is the return process?\nSincerely,\nBrian Thomas",
+    "thread_id": "i1j2k3l4m5n6",
+    "email_sender": "brian.thomas@example.com"
+  },
+  {
+    "email_subject": "Complaint about Website Issue",
+    "email_body": "Hi,\nI am having trouble accessing my account on your website. I keep getting an error message when I try to log in. Can you please help me resolve this issue?\nThanks,\nLinda Jackson",
+    "thread_id": "o7p8q9r0s1t2",
+    "email_sender": "linda.jackson@example.com"
+  },
+  {
+    "email_subject": "Question about Product",
+    "email_body": "Hello,\nI have a question about one of your sports equipment items. Does the product come with a warranty? What is the warranty period?\nThanks,\nGary White",
+    "thread_id": "u3v4w5x6y7z8",
+    "email_sender": "gary.white@example.com"
+  },
+  {
+    "email_subject": "Billing Issue",
+    "email_body": "Dear Support,\nI noticed an incorrect charge on my credit card statement. I was charged twice for the same order. Can you please investigate and correct this billing error?\nSincerely,\nAngela Harris",
+    "thread_id": "a9b0c1d2e3f4",
+    "email_sender": "angela.harris@example.com"
+  },
+  {
+    "email_subject": "Account Problem",
+    "email_body": "To Whom It May Concern,\nI am writing to report an issue with my account. I am unable to change my password. I have tried multiple times, but the system is not allowing me to do so. I would appreciate it if you could assist me in resetting my password or provide guidance on how to resolve this issue. My username is 'johndoe123'.\nThank you for your time and attention to this matter.\nSincerely,\nJohn Doe",
+    "thread_id": "g5h6i7j8k9l0",
+    "email_sender": "john.doe2@example.com"
+  }
+]

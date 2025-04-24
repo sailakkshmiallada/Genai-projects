@@ -1,0 +1,13 @@
+marker-pdf
+unstructured[pdf]
+# Dependency for unstrctured
+# sudo apt-get install tesseract-ocr -y
+# sudo apt-get install poppler-utils -y
+# Dependency for doctr
+# sudo apt-get install fonts-freefont-ttf -y
+docling==2.29.0
+pypdf==5.4.0
+pymupdf4llm==0.0.21
+ipykernel
+markitdown
+python-doctr[torch,viz]

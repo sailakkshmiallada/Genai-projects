@@ -1,0 +1,62 @@
+# config/product_template.yaml
+product_templates:
+  # Available product categories
+  categories:
+    - electronics
+    - furniture
+    - clothing
+    - kitchenware
+    - beauty
+    - sports
+    - toys
+    - books
+    - pet supplies
+    - jewelry
+    - office supplies
+    - automotive
+    - food and beverages
+  
+  # Price ranges by tier
+  price_ranges:
+    budget: [5, 50]
+    mid_range: [51, 200]
+    premium: [201, 1000]
+    luxury: [1001, 10000]
+
+
+  # Templates for different complexity levels
+  complexity_templates:
+    simple:
+      description: "Basic description with fundamental features"
+      word_count_range: [30, 70]
+      features_count: [2, 4]
+      specs_count: [0, 2]
+    
+    medium:
+      description: "Detailed description with main selling points"
+      word_count_range: [70, 150]
+      features_count: [4, 6]
+      specs_count: [2, 4]
+    
+    complex:
+      description: "Comprehensive description with technical details and unique selling points"
+      word_count_range: [150, 250]
+      features_count: [6, 8]
+      specs_count: [4, 8]
+    
+    very_complex:
+      description: "Extensive description with technical specifications, comparisons to similar products, use cases, and customer benefits"
+      word_count_range: [250, 400]
+      features_count: [8, 12]
+      specs_count: [8, 15]
+
+  # Fields for email responses
+  response_fields:
+    product_name: str
+    tagline: str
+    description: str
+    features: List[str]
+    price: float
+    complexity_level: str
+    category: str
+  
