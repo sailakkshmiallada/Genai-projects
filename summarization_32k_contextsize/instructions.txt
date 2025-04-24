@@ -1,0 +1,21 @@
+## Information
+For LLM - Used LLAMA 2 7B from bloke huggingface hub (TheBloke/Llama-2-7B-Chat-GGML).
+For Transformers -  Used bart-large-cnn from facebook (facebook/bart-large-cnn)
+For embeddings - Used from HuggingFace embeddings (sentence-transformers/all-MiniLM-L6-v2)
+For Vectors  -  Used lanchain community FAISS
+
+
+## Instructions
+1. Create virtual environment
+command (windows) : virtualenv venv
+
+2. Activate venv
+command (windows) : cd venv/Scripts --> activate
+
+3. Install required libraries
+command (windows) :  pip install -r requirements.txt
+
+4. Run main.py file using below command
+command (windows) : streamlit run main.py
+
+Now the application will run on your localhost.

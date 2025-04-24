@@ -1,0 +1,47 @@
+validate_drools_sop:
+  description: >
+    Compare the provided JSON SOP (`json_sop`) with the Drools SOP (`drools_sop`) to 
+    validate the completeness, accuracy, and syntactic correctness of the Drools rules. 
+    Ensure that:
+    1. All rules, conditions, and actions in the JSON SOP are present in the Drools SOP.
+    2. The Drools SOP is syntactically valid and adheres to the Drools rule syntax.
+    3. No rules, conditions, or actions are omitted or misrepresented in the Drools SOP.
+    4. Logical operators (AND, OR, NOT) are correctly translated.
+    5. Nested or hierarchical rules in JSON are represented appropriately in Drools.
+    6. Drools rules follow the correct structural format (`rule`, `when`, `then`, `end`).
+
+    The task must produce:
+    - A validation result indicating whether the Drools SOP is valid or not.
+    - A numeric accuracy score (0-100%) assessing the alignment of Drools with the JSON SOP.
+    - Detailed feedback highlighting discrepancies and providing actionable recommendations 
+      to fix any issues.
+
+    Validation Guidelines:
+    - Compare `json_sop.rules` with the corresponding rules in `drools_sop`. 
+    - Ensure the Drools syntax is valid:
+      - Rules must start with `rule "rule_name"`.
+      - `when` and `then` clauses must be present.
+      - Every rule must end with `end`.
+    - Evaluate the completeness of Drools:
+      - Check if all JSON rules (conditions and actions) are represented in Drools.
+      - Verify that no rules are missing or incorrectly translated.
+    - Provide an accuracy score based on:
+      - Correctness of syntax.
+      - Completeness of the rules (all JSON SOP rules captured).
+      - Logical consistency between `json_sop` and `drools_sop`.
+
+    Your response must include:
+    - Valid: True/False (Is the Drools SOP syntactically valid?)
+    - Accuracy_Score: Numeric score (0-100%)
+    - Feedback: List of discrepancies and actionable suggestions for improvement.
+
+    JSON_SOP to compare:
+    '{json_sop}'
+
+    Drools Rules to verify:
+    '{drools_sop}'
+  expected_output: >
+    Valid: True/False
+    Accuracy_Score: Numeric value (0-100%)
+    Feedback: Detailed commentary on discrepancies and suggestions for improvement.
+  agent: drools_verifier_agent

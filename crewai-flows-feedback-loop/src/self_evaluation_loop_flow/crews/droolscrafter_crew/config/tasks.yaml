@@ -1,0 +1,37 @@
+convert_json_to_drools:
+  description: >
+    Convert the provided JSON SOP rules '{json_sop}' into Drools rule format.
+    Follow these guidelines for conversion:
+    1. Parse each JSON rule object and identify:
+       - Rule name/identifier
+       - Conditions (when clause)
+       - Actions (then clause)
+       - Priority/salience if specified
+    2. Transform into Drools syntax:
+       - Create proper rule declaration with "rule" keyword
+       - Format conditions in "when" block
+       - Format actions in "then" block
+       - Add appropriate declarations and imports
+    3. Ensure proper handling of:
+       - Data types and conversions
+       - Rule attributes (no-loop, salience, agenda-group)
+       - Complex conditions and multiple constraints
+       - Rule activation groups if specified
+    
+    Special conversion rules:
+    - Maintain rule naming conventions
+    - Properly escape special characters
+    - Include necessary package declarations
+    - Add required import statements
+    - Format rules according to Drools best practices
+    - Ensure all JSON rule properties are mapped to Drools equivalents
+    - Do not include any explanation except drools rules
+
+    Please incorporate the following feedback if present:
+    {feedback}
+
+  expected_output: >
+    "A single JSON object containing one key, `drools_sop`, where the value is the complete 
+    Drools code as a string.",
+
+  agent: json_to_drools_agent

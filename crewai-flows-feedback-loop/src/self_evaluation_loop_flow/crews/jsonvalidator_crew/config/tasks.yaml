@@ -1,0 +1,28 @@
+verify_sop_json:
+  description: >
+    Validate the JSON output generated from an SOP document. Ensure that:
+    - All steps, substeps, conditions, and actions from the original SOP text are captured.
+    - The JSON is syntactically valid and adheres to the expected schema:
+      - Keys: `steps`, `substeps`, `conditions`, `actions`, etc., must be present where applicable.
+    - Hierarchical relationships between steps, substeps, and conditions are maintained.
+    - All rules mentioned in the SOP are represented in the JSON.
+
+    Compare the original SOP text with the JSON to ensure completeness.
+    Provide an accuracy score (0-100%) based on how well the JSON captures the SOP.
+    If discrepancies are found, provide actionable feedback on how to fix them.
+
+    Your final response must include:
+    - Valid: True/False (Is the JSON syntactically valid and schema-compliant?)
+    - Accuracy_Score: Numeric score (0-100%)
+    - Feedback: List of discrepancies and suggestions for improvement.
+
+    SOP Text:
+    '{sop_text}'
+
+    JSON to Verify:
+    '{sop_json}'
+  expected_output: >
+    Valid: True/False
+    Accuracy_Score: Numeric value (0-100%)
+    Feedback: Detailed commentary on discrepancies and recommendations for improvement.
+  agent: sop_json_verifier

@@ -1,0 +1,25 @@
+convert_sop_to_json:
+  description: >
+    Given the SOP document '{sop_text}', analyze and convert it into a structured JSON format.
+    Follow these guidelines for processing:
+    1. Identify main steps marked by numbers, bullets, or clear sequence indicators
+    2. Detect sub-steps that provide detailed breakdown of main steps
+    3. Extract conditions (marked by if/when/in case statements)
+    4. Identify actions (specific tasks or procedures to be performed)
+    5. Preserve any warnings (marked by "Warning", "Caution", "Important")
+    6. Maintain hierarchical relationships between elements
+    7. Capture any notes or additional information
+
+    Special parsing rules:
+    - Steps usually start with action verbs
+    - Conditions often begin with "If", "When", "Before", "After"
+    - Warnings may be highlighted or in special formatting
+    - Sub-steps are typically indented or marked with sub-bullets
+    - Do not include any explanation except json object
+    
+    Please incorporate the following feedback if present:
+    '{feedback}'
+  expected_output: >
+    "A JSON object with all the sop rules and steps",
+
+  agent: sop_structure_agent

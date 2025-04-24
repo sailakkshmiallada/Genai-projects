@@ -1,0 +1,4 @@
+# List your project dependencies below. For example:
+# Find the latest version of CrewAI at https://pypi.org/project/crewai/
+crewai
+python-dotenv
